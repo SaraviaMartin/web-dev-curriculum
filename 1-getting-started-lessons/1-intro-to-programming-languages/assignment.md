@@ -9,3 +9,7 @@ There are many tools that a web developer may need that are on the [MDN document
 Exemplary | Adequate | Needs Improvement
 --- | --- | -- |
 |Explained why web developer would use tool| Explained how, but not why developer would use tool| Did not mention how or why a developer would use tool  |
+
+## Answer
+
+ A developer should use the tools because with proper use they will help facilitate the development process and be able to do it more quickly. Also to avoid errors in the styles and to ensure that the code acts appropriately.
