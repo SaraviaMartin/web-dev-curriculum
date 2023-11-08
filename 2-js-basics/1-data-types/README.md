@@ -159,6 +159,8 @@ myString1 + ", " + myString2 + "!"; //Hello, World!
 
 ✅ Why does `1 + 1 = 2` in JavaScript, but `'1' + '1' = 11?` Think about it. What about `'1' + 1`?
 
+'1' + '1' both are string , '1' + 1 should be 11 too
+
 **Template literals** are another way to format strings, except instead of quotes, the backtick  is used. Anything that is not plain text must be placed inside placeholders `${ }`. This includes any variables that may be strings.
 
 ```javascript
@@ -172,6 +174,10 @@ let myString2 = "World";
 You can achieve your formatting goals with either method, but template literals will respect any spaces and line breaks.
 
 ✅ When would you use a template literal vs. a plain string?
+
+✅ Anything that is not plain text must be placed inside placeholders `${ }`.This includes any variables that may be strings.
+
+
 
 ### Booleans
 
@@ -195,6 +201,80 @@ JavaScript is notorious for its surprising ways of handling datatypes on occasio
 
 Take a look at [this list of JavaScript exercises](https://css-tricks.com/snippets/javascript/) and try one. What did you learn?
 
+✅ The .classList()API
+
+Assuming you have an element in the DOM:
+
+```html
+<div id="el"></div>
+```
+
+Get a reference to that DOM element:
+
+```Javascript
+const el = document.querySelector("#el");
+```
+
+Then you can manipulate the classes on that element with the classList method.
+
+```Javascript
+// Add a class
+el.classList.add("open");
+
+// Add many classes
+el.classList.add("this", "little", "piggy");
+let classes = ["is-message", "is-warning"];
+el.classList.add(...classes);
+
+// Remove a class
+el.classList.remove("open");
+
+// Remove multiple classes
+el.classList.remove("this", "little", "piggy");
+
+// Loop over each class
+el.classList; // DOMTokenList (pretty much an array)
+el.classList.forEach(className => {
+  // don't use "class" as that's a reserved word
+  console.log(className);
+});
+for (let className of $0.classList) {
+  console.log(className);
+}
+
+el.classList.length; // integer of how many classes there are
+
+// Replace a class (replaces first with second)
+el.classList.replace("is-big", "is-small");
+
+// Toggle a class (if it's there, remove it, if it's not there, add it)
+el.classList.toggle("open");
+// Remove the class
+el.classList.toggle("open", false);
+// Add the class
+el.classList.toggle("open", true);
+// Add the class with logic
+el.classList.toggle("raining", weather === "raining");
+
+// Check if element has class (returns true or false)
+el.classList.contains("open");
+
+// Look at individual classes <div class="hot dog">
+el.classList.item(0); // hot
+el.classList.item(1); // dog
+el.classList.item(2); // null
+el.classList[1]; // dog
+```
+
+✅ Great Resource  [JavaScript Array Explorer](https://codepen.io/sdras/details/gogVRX) By Sarah Drasner
+
+
+✅ Great Resource  [Generate a random color in JavaScript](https://css-tricks.com/snippets/javascript/random-hex-color/) By Chris Coyier 
+
+
+
+
 ## Assignment
 
 [Data Types Practice](assignment.md)
+
