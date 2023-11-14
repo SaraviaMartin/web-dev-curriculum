@@ -184,6 +184,8 @@ You've now seen we have three ways to pass a function as a parameter and might b
 
 Can you articulate in one sentence the difference between functions and methods? Give it a try!
 
+##  🚀 The main difference between functions and methods lies in the fact that functions are independent blocks of code, while methods are functions associated with specific objects in object-oriented programming.
+
 ## Post-Lecture Quiz
 [Post-lecture quiz](https://ashy-river-0debb7803.1.azurestaticapps.net/quiz/10)
 
