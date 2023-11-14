@@ -40,4 +40,43 @@ function salutationName (name) {
   const message = `Hello, ${name}`;
   return message;
 }
+
+//Arrow functions  Exaples
+
+// Traditional anonymous function
+(function (a, b) {
+  return a + b + 100;
+});
+
+// Arrow function
+(a, b) => a + b + 100;
+
+const a = 4;
+const b = 2;
+
+// Traditional anonymous function (no parameters)
+(function () {
+  return a + b + 100;
+});
+
+// Arrow function (no parameters)
+() => a + b + 100;
+
+
+//The braces can only be omitted if the function directly returns an expression. If the body has additional lines of processing, the braces are required — and so is the return keyword. Arrow functions cannot guess what or when you want to return.
+
+// Traditional anonymous function
+(function (a, b) {
+  const chuck = 42;
+  return a + b + chuck;
+});
+
+// Arrow function
+(a, b) => {
+  const chuck = 42;
+  return a + b + chuck;
+};
+
+
+
 ```
