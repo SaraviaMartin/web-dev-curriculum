@@ -38,3 +38,30 @@ let studentsWhoPass = [];
 | Criteria | Exemplary                      | Adequate                      | Needs Improvement               |
 | -------- | ------------------------------ | ----------------------------- | ------------------------------- |
 |          | Complete solution is presented | Partial solution is presented | Solution with bugs is presented |
+
+
+```javascript
+let allStudents = [
+  'A',
+  'B-',
+  1,
+  4,
+  5,
+  2
+]
+
+let studentsWhoPass = [];
+
+for(let i = 0; i < allStudents.length; i++){
+    let grade = allStudents[i];
+    if((typeof grade === "string" && grade === "A") || (typeof grade === 'number' && grade > 3)){
+    studentsWhoPass.push(grade);
+  }
+}
+
+console.log("Students Who Pass:", studentsWhoPass);
+
+//"Students Who Pass:" ["A", 4, 5]
+
+
+```
