@@ -23,6 +23,7 @@ Booleans can be only two values: `true` or `false`. Booleans help make decisions
 Set your boolean to be true or false like this:
 
 `let myTrueBool = true`
+
 `let myFalseBool = false`
 
 ✅ Booleans are named after the English mathematician, philosopher and logician George Boole (1815–1864).
@@ -120,6 +121,12 @@ console.log(`The value is ${a}`);
 
 ✅ Test your understanding of this code and the following code by running it in a browser console. Change the values of the varaiable a to change the returned `console.log()`.
 
+```javascript
+let Juan = 27
+let Valentina = 25 
+
+```
+
 ## Logical Operators and Booleans
 
 Decisions might require more than one comparison, and can be strung together with logical operators to produce a Boolean value.
@@ -200,6 +207,29 @@ if (firstNumber > secondNumber) {
 ## 🚀 Challenge
 
 Create a program that is written first with logical operators, and then rewrite it using a ternary expression. What's your preferred syntax?
+
+```Javascript
+
+## Logical Operators and Booleans
+
+let Martin = 27
+let Valentina = 25
+let Keta = 27
+
+if (Martin > Valentina && Martin >= Keta) {
+  console.log("Martin es Mayor")
+} else {
+  console.log("Martin es Menor")
+}
+
+## Ternary Expression
+
+let Martin = 27
+let Valentina = 25
+
+let mayoriaDeEdad = Martin > Valentina ? Martin : Valentina
+
+```
 
 ---
 
