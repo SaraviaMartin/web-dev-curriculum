@@ -86,6 +86,13 @@ for (let i = 0; i < 10; i++) {
 
 ✅ Run this code in a browser console. What happens when you make small changes to the counter, condition, or iteration expression? Can you make it run backwards, creating a countdown?
 
+```javascript
+//Countdown 
+for(let i = 10; i > 0; i-- ){
+  console.log(i)
+}
+```
+
 ### While loop
 
 Unlike the syntax of the `for` loop, `while` loops only require a condition that will stop the loop when the condition becomes `false`. Conditions in loops usually rely on other values like counters, and must be managed during the loop. Starting values for counters must be created outside the loop, and any expressions to meet a condition, including changing the counter must be maintained inside the loop.
