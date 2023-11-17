@@ -128,6 +128,32 @@ for (let i = 0; i < iceCreamFlavors.length; i++) {
 
 There are other ways of looping over arrays other than for and while loops. There are [forEach](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach), [for-of](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/for...of), and [map](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/map). Rewrite your array loop using one of these techniques.
 
+```javascript
+let countries = ["Argentina", "Brasil", "Italy", "France", "Germany"];
+
+
+//For loop
+for (let i = 0; i < countries.length; i++) {
+  console.log(countries[i]);
+} //Ends when all flavors are printed
+
+//ForEach
+countries.forEach((country) => console.log(country))
+
+//ForOf
+for(let country of countries) {
+  country+=
+  console.log(country);
+}
+
+//Map
+let upperCaseCountries = countries.map(function(country) {
+  return country.toUpperCase();
+})
+
+console.log(upperCaseCountries);
+```
+
 ## Post-Lecture Quiz
 [Post-lecture quiz](https://ashy-river-0debb7803.1.azurestaticapps.net/quiz/14)
 
