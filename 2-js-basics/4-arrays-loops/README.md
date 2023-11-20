@@ -162,6 +162,34 @@ console.log(upperCaseCountries);
 
 Arrays in JavaScript have many methods attached to them, that are extremely useful for data manipulation. [Read up on these methods](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array) and try some of them out (like push, pop, slice and splice) on an array of your creation.
 
+```Javascript
+let equiposArgentinos = ["Boca", "River", "Argentinos Junior", "Banfield", "Independiente", "Racing", "Velez"]
+
+//First & Last
+let first = equiposArgentinos[0]
+let last = equiposArgentinos[equiposArgentinos.length -1]
+
+
+//Recorrer el array
+equiposArgentinos.forEach(function(e, index){
+  console.log(e, index)
+})
+
+//Nuevo Equipo Push
+let nuevoArrayDeEquipos = equiposArgentinos.push("Lanus")
+
+//Eliminar ultimo
+let ultimo = equiposArgentinos.pop();
+
+//splice elimina un objeto endeterminada posicion del array
+let equipoEliminado = equiposArgentinos.splice(pos, 1)
+
+//copiar un array
+let nuevoArrayCopia = equiposArgentinos.slice();
+
+
+```
+
 ## Assignment
 
 [Loop an Array](assignment.md)
