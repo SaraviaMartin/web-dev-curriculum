@@ -78,6 +78,8 @@ Open your browser's console to the 'Elements' tab and observe the H1's font. It 
 
 ✅ Can you make a nested style inherit a different property?
 
+Each element within it will also be displayed in that color and with that font, unless a different color and font have been applied directly to them.
+
 ---
 
 ## CSS Selectors
