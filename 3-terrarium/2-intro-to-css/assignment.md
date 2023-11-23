@@ -9,3 +9,6 @@ Restyle the terrarium using either Flexbox or CSS Grid, and take screenshots to 
 | Criteria | Exemplary                                                         | Adequate                      | Needs Improvement                    |
 | -------- | ----------------------------------------------------------------- | ----------------------------- | ------------------------------------ |
 |          | Present a completely restyled terrarium using Flexbox or CSS Grid | Restyle a few of the elements | Fail to restyle the terrarium at all |
+
+
+![Mobile version](../myterrarium/Screenshot_92.png)

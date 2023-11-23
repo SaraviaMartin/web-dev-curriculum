@@ -1,5 +1,7 @@
 body {
 	font-family: helvetica, arial, sans-serif;
+	display: flex;
+	justify-content: center ;
 }
 
 h1 {
@@ -8,6 +10,8 @@ h1 {
 }
 
 #left-container {
+	display: flex;
+	flex-direction: column;
 	background-color: #eee;
 	width: 15%;
 	left: 0px;
@@ -18,6 +22,8 @@ h1 {
 }
 
 #right-container {
+	display: flex;
+	flex-direction: column;
 	background-color: #eee;
 	width: 15%;
 	right: 0px;
@@ -76,7 +82,7 @@ h1 {
 .dirt {
 	width: 60%;
 	height: 5%;
-	background: #3a241d;
+	background: #3a241dfa;
 	position: absolute;
 	border-radius: 0 0 1rem 1rem;
 	bottom: 1%;
