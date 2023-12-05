@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  #word {
+    font-size: 36px;
+    margin-top: 50px;
+  }
+  #score {
+    font-size: 24px;
+    margin-top: 20px;
+  }
